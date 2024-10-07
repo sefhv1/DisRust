@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Using Open Sans font */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+header {
+    background-color: #3498db; /* Blue background for header */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease; /* Adding transition effect to navigation links */
+}
+
+nav a:hover {
+    color: #ccc; /* Changing link color on hover */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: #fff; /* White background for main section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow to main section */
+}
+
+#download-button {
+    background-color: #4CAF50; /* Green background for button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#download-button:hover {
+    background-color: #3e8e41; /* Darker green background on hover */
+}
+
+footer {
+    background-color: #3498db; /* Blue background for footer */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
